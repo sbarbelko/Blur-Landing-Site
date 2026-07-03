@@ -73,3 +73,36 @@ i {
   font-size: 1rem;
   margin: 16px 0;
 }
+
+.sectionSecondMain {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0;
+}
+
+.divSectiondSecond {
+    max-width: 960px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon {
+    font-size: 10rem;
+}
+
+.container {
+    max-width: 470px;
+    text-align: left;
+}
+
+.h2SectionSecond {
+ font-size: 1.125rem;
+ margin: 18px 0;
+ font-weight: 700;
+}
+
+.pSectionSecond {
+    font-size: 1rem;
+    margin: 16px 0;
+}
