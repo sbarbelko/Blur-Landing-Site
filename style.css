@@ -25,7 +25,7 @@ header {
 }
 
 .sectionHeader {
-max-width: 300px;
+  max-width: 300px;
 }
 
 img {
@@ -44,5 +44,32 @@ h1 {
 }
 
 .sectionBigMain {
-    background-color: var(--darkColor);
+  background-color: var(--darkColor);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--brightColor);
+  padding: 64px 0;
+  flex-wrap: wrap;
+}
+
+.sectionFirstBigMain,
+.sectionSecondBigMain,
+.sectionThirdBigMain {
+  padding: 20px;
+  max-width: 350px;
+}
+
+i {
+  font-size: 3rem;
+}
+
+.h2SectionBigMain {
+  font-size: 1.125rem;
+  margin: 18px 0;
+}
+
+.pSectionBigMain {
+  font-size: 1rem;
+  margin: 16px 0;
 }
