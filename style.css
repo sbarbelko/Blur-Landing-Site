@@ -75,34 +75,48 @@ i {
 }
 
 .sectionSecondMain {
-    display: flex;
-    justify-content: center;
-    padding: 64px 0;
+  display: flex;
+  justify-content: center;
+  padding: 64px 0;
 }
 
 .divSectiondSecond {
-    max-width: 960px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .icon {
-    font-size: 10rem;
+  font-size: 10rem;
 }
 
 .container {
-    max-width: 470px;
-    text-align: left;
+  max-width: 470px;
+  text-align: left;
+  padding: 0 10px;
 }
 
 .h2SectionSecond {
- font-size: 1.125rem;
- margin: 18px 0;
- font-weight: 700;
+  font-size: 1.125rem;
+  margin: 18px 0;
+  font-weight: 700;
 }
 
 .pSectionSecond {
-    font-size: 1rem;
-    margin: 16px 0;
+  font-size: 1rem;
+  margin: 16px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 35px;
+  background-color: var(--darkColor);
+}
+
+.pFooter {
+  color: var(--brightColor);
+  font-size: 1rem;
 }
